@@ -1,0 +1,111 @@
+:root {
+  --light: #F5EFE2;
+  --medium: #F4E5C2;
+
+  --orange: #EFB777;
+  --yellow: #F5DBC1;
+  --blue: #CBDBF5;
+  --pink: #F4CCCE;
+  --green: #D2DED3;
+
+  --dark: #020531;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: var(--dark);
+  font-family: 'Kanit', Tahoma, sans-serif;
+}
+
+body {
+  background-color: var(--medium);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+
+
+/* ELEMENTS */
+.header {
+  background-color: var(--orange);
+  text-align: center;
+  letter-spacing: 0.3em;
+}
+
+.list {
+  background-color: var(--light);
+}
+
+.list-item {
+  background-color: var(--green);
+  font-size: 0.8em;
+  font-weight: normal;
+  letter-spacing: 0.15em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item i {
+  margin-right: 10px;
+  
+}
+
+.new-task-form {
+  display: flex;
+  gap: 5px;
+}
+
+.new-task__input {
+  outline: 0;
+  border: 0;
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 20px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
+
+.new-task__button {
+  background-color: var(--orange);
+  outline: 0;
+  border: 0;
+}
+
+
+
+
+/* GENREAL STYLES */
+.title {
+  font-weight: bold;
+}
+
+.--green {
+  background-color: var(--green);
+}
+
+.--blue {
+  background-color: var(--blue);
+}
+
+.--pink {
+  background-color: var(--pink);
+}
+
+.--yellow {
+  background-color: var(--yellow);
+}
+
+.section {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px
+}
